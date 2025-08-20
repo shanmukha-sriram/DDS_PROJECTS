@@ -1,0 +1,24 @@
+
+🏥 Hospital Patient Queue – Python Project
+
+This project is a Python-based simulation of a hospital queue management system designed to efficiently handle the arrival of both emergency and regular patients. The primary goal of this system is to mimic how real-life hospitals prioritize treatment, where emergency patients are attended to before regular ones, regardless of their arrival time.
+
+The system adopts a priority-based insertion technique using a queue data structure. Whenever a new patient arrives, they are inserted into the queue based on their urgency. This ensures that emergency cases are always placed ahead in the line while still preserving the order among patients with the same priority level. It provides a simple, menu-driven command-line interface where hospital staff can perform key operations such as adding patients, viewing the current queue, and handling patient servicing.
+
+✨ Features
+
+🆕 Add New Patient with Priority Insert patients into the queue by specifying their name and priority level (e.g., Emergency or Regular).
+
+🔄 Serve Patients in Correct Order Ensures that patients are removed from the queue in such a way that emergency patients are always served before regular ones.
+
+📋 Display All Patients in Queue Shows the current state of the queue so users can clearly see which patients are waiting and their priority status.
+
+🧰 Technologies / Concepts Used
+
+Python (Core) Queue Data Structure collections.deque used for efficient double-ended queue operations Priority-Based Insertion Logic
+
+🚀 How to Run
+
+Make sure Python (version 3.x) is installed on your system. Open your terminal or command prompt. Navigate to your project directory: cd Hospital_Patient_Queue Run the main program file: python src/main.py 🎯 Educational Objective
+
+This mini project is designed for students to clearly understand how queue data structures can be enhanced using priority-based logic to manage real-world scenarios. It emphasizes the importance of fair scheduling, dynamic insertion, and the ability to simulate real-life hospital workflow where life-saving decisions can’t always follow a simple “first come, first served” system
