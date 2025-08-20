@@ -1,0 +1,30 @@
+md
+💰 Personal Finance Tracker – Python Project
+
+The Personal Finance Tracker is a beginner-friendly Python project that helps users keep track of their personal finances by recording income and expenses in a structured manner. The application assists users in monitoring day-to-day spending, evaluating financial habits, and identifying high-value transactions — all through a simple terminal-based interface.
+
+The system stores each transaction as a dictionary containing details such as amount, type (income/expense), description, and date. These dictionaries are then maintained as a list, making it easy for users to perform actions like adding new entries, viewing full transaction history, and filtering based on criteria such as expense size.
+
+This project is ideal for students who are learning about Python basics, data storage using lists/dictionaries, and want to build a meaningful, real-life utility tool using simple logic and clean code organization.
+
+✨ Key Features
+
+➕ Add Income or Expense Records Users can enter an amount, specify whether it is an income or an expense, and provide a brief description.
+
+📊 View Full Transaction History Displays all previously added transactions with details, helping users review how money is being earned and spent.
+
+🔍 Filter Large Expenses Allows users to display only those expenses that exceed a specified amount — useful for identifying major outflow
+
+🧰 Technologies / Concepts Used
+
+Python (Core)
+
+List of Dictionaries for storing multiple transaction records
+
+Basic filtering & looping logic
+
+🚀 How to Run
+
+Ensure you have Python 3 installed. Open your terminal/command prompt. Navigate to the project directory: cd personal_finance_tracker Run the main Python file: python src/main.py 🎯 Educational Objective
+
+This project highlights how simple Python data structures can be combined to build effective real-world utilities. By using lists and dictionaries, learners gain hands-on experience managing dynamic datasets while also reinforcing concepts like user input, control flow, and data filtering in Python.
